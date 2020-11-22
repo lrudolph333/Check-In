@@ -15,6 +15,7 @@
 		6012A8BE2564E79200EC828B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012A8BC2564E79200EC828B /* Main.storyboard */; };
 		6012A8C02564E79900EC828B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6012A8BF2564E79900EC828B /* Assets.xcassets */; };
 		6012A8C32564E79900EC828B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012A8C12564E79900EC828B /* LaunchScreen.storyboard */; };
+		60BE6516256A0980006F8816 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE6515256A0980006F8816 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6012A8BF2564E79900EC828B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6012A8C22564E79900EC828B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6012A8C42564E79900EC828B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BE6515256A0980006F8816 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		6BF668294CAD5A7FC777171C /* Pods-Check-In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Check-In.debug.xcconfig"; path = "Target Support Files/Pods-Check-In/Pods-Check-In.debug.xcconfig"; sourceTree = "<group>"; };
 		D36F181E54BD3284F7FBBBA3 /* Pods-Check-In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Check-In.release.xcconfig"; path = "Target Support Files/Pods-Check-In/Pods-Check-In.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				6012A8B62564E79200EC828B /* AppDelegate.swift */,
 				6012A8B82564E79200EC828B /* SceneDelegate.swift */,
 				6012A8BA2564E79200EC828B /* ViewController.swift */,
+				60BE6515256A0980006F8816 /* LogInViewController.swift */,
 				6012A8BC2564E79200EC828B /* Main.storyboard */,
 				6012A8BF2564E79900EC828B /* Assets.xcassets */,
 				6012A8C12564E79900EC828B /* LaunchScreen.storyboard */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BE6516256A0980006F8816 /* LogInViewController.swift in Sources */,
 				6012A8BB2564E79200EC828B /* ViewController.swift in Sources */,
 				6012A8B72564E79200EC828B /* AppDelegate.swift in Sources */,
 				6012A8B92564E79200EC828B /* SceneDelegate.swift in Sources */,
